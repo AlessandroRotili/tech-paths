@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formazione Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Percorsi di Formazione Tech</h1>
+    </header>
+    <main>
+        <section id="software-developer">
+            <h2>Software Developer</h2>
+            <p>Il Software Developer si occupa dello sviluppo di applicazioni utilizzando vari linguaggi di programmazione e tecnologie.</p>
+            <a href="#" class="open-modal" data-modal="software-modal">Scopri di più</a>
+        </section>
+        <section id="cyber-security-analyst">
+            <h2>Cyber Security Analyst</h2>
+            <p>Il Cyber Security Analyst protegge i sistemi informatici da minacce e attacchi informatici.</p>
+            <a href="#" class="open-modal" data-modal="cyber-modal">Scopri di più</a>
+        </section>
+        <section id="data-analyst">
+            <h2>Data Analyst</h2>
+            <p>Il Data Analyst analizza i dati per aiutare le aziende a prendere decisioni informate.</p>
+            <a href="#" class="open-modal" data-modal="data-modal">Scopri di più</a>
+        </section>
+    </main>
+    <!-- Modali -->
+    <div id="software-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Software Developer</h2>
+            <p>Il Software Developer si occupa dello sviluppo, test e manutenzione di applicazioni software scalabili utilizzando vari linguaggi di programmazione e tecnologie come Java, .NET, C#, Azure e altre tecnologie Microsoft.</p>
+            <p>Caratteristiche ideali includono un'eccellente logica, problem-solving, e un'attitudine al lavoro di squadra. Questa professione è adatta a persone con intelligenza logico-matematica e una passione per il codice e l'innovazione tecnologica.</p>
+            <button class="accordion">Vedi i percorsi</button>
+            <div class="panel">
+                <ul>
+                    <li><a href="https://italy.generation.org/programs/java-developer/" target="_blank">Corso Java Base (Generation)</a></li>
+                    <li><a href="https://boolean.careers/corsi/full-stack-web-development" target="_blank">Web Dev Full Time 6 mesi (Boolean)</a></li>
+                    <li><a href="https://boolean.careers/fundamentals-camp/full-stack-web-development" target="_blank">Corso GRATIS 15 Web Dev (Boolean)</a></li>
+                    <li><a href="https://epicode.com/it/corso-web-developer-part-time/" target="_blank">Web Dev (Epicode)</a></li>
+                    <li><a href="https://epicode.com/it/corso-web-developer/" target="_blank">Full Stack Dev (Epicode)</a></li>
+                    <li><a href="https://italy.generation.org/programs/microsoft-developer/" target="_blank">Corso Microsoft .NET Base (Generation)</a></li>
+                    <li><a href="https://boolean.careers/fundamentals-camp/full-stack-web-development" target="_blank">Corso GRATIS 15 Web Dev</a></li>
+                    <li><a href="https://epicode.com/it/corso-web-developer-part-time/" target="_blank">Web Dev (Epicode)</a></li>
+                    <li><a href="https://epicode.com/it/corso-web-developer/" target="_blank">Full Stack Dev (Epicode)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="cyber-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cyber Security Analyst</h2>
+            <p>Il Cyber Security Analyst protegge i sistemi informatici da minacce come hacker, malware e attacchi DDoS. Questo ruolo richiede una profonda conoscenza delle vulnerabilità di rete, crittografia, e strumenti di monitoraggio della sicurezza.</p>
+            <p>È ideale per persone con una forte capacità di analisi critica, intelligenza logico-matematica e una grande attenzione ai dettagli. La passione per la sicurezza e il costante aggiornamento tecnologico sono essenziali.</p>
+            <button class="accordion">Vedi i percorsi</button>
+            <div class="panel">
+                <ul>
+                    <li><a href="https://italy.generation.org/programs/system-cybersecurity-analyst/" target="_blank">Corso Cyber Security Base (Generation)</a></li>
+                    <li><a href="https://epicode.com/it/corso-cybersecurity-analyst-part-time/" target="_blank">Corso Cyber Security Analyst 6 mesi (Epicode)</a></li>
+                    <li><a href="https://epicode.com/it/corso-cybersecurity/" target="_blank">Corso Cyber Security Spec 3 mesi (Epicode)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="data-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Data Analyst</h2>
+            <p>Il Data Analyst interpreta grandi volumi di dati per fornire informazioni strategiche. Questo ruolo richiede competenze avanzate in strumenti come SQL, Excel, Python e software di visualizzazione dati come Tableau o Power BI.</p>
+            <p>La professione è adatta a persone con intelligenza logico-matematica, curiosità, capacità di trovare pattern nascosti nei dati e di presentare i risultati in modo chiaro e persuasivo.</p>
+            <button class="accordion">Vedi i percorsi</button>
+            <div class="panel">
+                <ul>
+                    <li><a href="https://italy.generation.org/programs/data-engineer/" target="_blank">Corso Data Analysis Base (Generation)</a></li>
+                    <li><a href="https://boolean.careers/corsi/data-analytics" target="_blank">Corso Data Analysis 4 mesi (Boolean)</a></li>
+                    <li><a href="https://epicode.com/it/corso-data-analyst/" target="_blank">Corso Data Analysis 4 mesi (Epicode)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

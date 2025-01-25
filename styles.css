@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #00FF00;
+    background-image: url('https://img.pikbest.com/wp/202344/high-tech-texture-futuristic-circuit-board-abstract-background-with-technological_9925654.jpg!bw700'); /* Aggiungi il percorso dell'immagine di sfondo */
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+header {
+    background-color: #000;
+    color: #00FF00;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    background-color: #111;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    flex: 1 1 calc(50% - 2rem);
+    max-width: 20%;
+}
+
+#java-developer {
+    background-color: #000000; /* Arancione/Rosso */
+    border: 2px solid #FF4500; /* Azzurro */
+}
+
+#java-developer h2, #java-developer a {
+    color: #FF4500; /* Arancione/Rosso */
+}
+
+#java-developer a {
+    border: 2px solid #FF4500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#java-developer a:hover {
+    background-color: #FF6347; /* Rosso chiaro */
+    color: #000;
+}
+
+#microsoft-developer {
+    border: 2px solid #1E90FF; /* Blu scuro */
+}
+
+#microsoft-developer h2 {
+    color: #1E90FF; /* Blu */
+}
+#microsoft-developer a {
+    color: #ffffff; /* Blu */
+}
+
+#microsoft-developer a {
+    background-color: #00008B; /* Blu scuro */
+}
+
+#microsoft-developer a:hover {
+    background-color: #4682B4; /* Blu acciaio */
+    color: #fff;
+}
+
+#cyber-security-analyst {
+    background-color: #006400; /* Verde scuro */
+    border: 2px solid #00FF00; /* Verde */
+}
+
+#cyber-security-analyst h2, #cyber-security-analyst a {
+    color: #000000; /* Verde */
+}
+
+#cyber-security-analyst a {
+    background-color: #006400; /* Verde scuro */
+    border: 2px solid #000000; /* Verde */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#cyber-security-analyst a:hover {
+    background-color: #32CD32; /* Verde lime */
+    color: #000;
+}
+
+#data-analyst {
+    background-color: #696969; /* Grigio scuro */
+    border: 2px solid #000; /* Nero */
+}
+
+#data-analyst h2{
+    color: #000000; /* Grigio scuro */
+}
+ #data-analyst a {
+    color: #ffffff; /* Grigio scuro */
+}
+#data-analyst a {
+    background-color: #000; /* Nero */
+}
+
+#data-analyst a:hover {
+    background-color: #A9A9A9; /* Grigio chiaro */
+    color: #000;
+}
+
+#software-developer {
+    background-color: #00008B; /* Blu scuro */
+    border: 2px solid #1E90FF; /* Blu */
+}
+
+#software-developer h2, #software-developer a {
+    color: #ffffff; /* Blu */
+}
+
+#software-developer a {
+    border: 2px solid #1E90FF;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#software-developer a:hover {
+    background-color: #4682B4; /* Blu acciaio */
+    color: #fff;
+}
+
+h2 {
+    color: #00FF00;
+}
+
+a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #00CC00;
+}
+
+/* Stile per le modali */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Sfondo semi-trasparente */
+}
+
+.modal-content {
+    background-color: #222;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    color: #00FF00;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2 {
+    color: #00FF00;
+    margin-top: 0;
+}
+
+.modal p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+.modal button {
+    background-color: #00FF00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.modal button:hover {
+    background-color: #00CC00;
+}
+
+/* Stile per l'accordion */
+.accordion {
+    background-color: #00FF00;
+    color: #000;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.accordion:hover {
+    background-color: #00CC00;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.panel ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.panel ul li {
+    padding: 10px 0;
+}
+
+.panel ul li a {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+.panel ul li a:hover {
+    text-decoration: underline;
+    color: #fff; /* Cambia il colore del testo in bianco */
+}
+
+@media (max-width: 768px) {
+    section {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
